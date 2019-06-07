@@ -11,4 +11,12 @@ func main() {
 	defer fmt.Println("salut baieti") 
 
 	fmt.Println("ceau")
+
+	fmt.Println("counting")
+
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
+
+	fmt.Println("done")
 }
